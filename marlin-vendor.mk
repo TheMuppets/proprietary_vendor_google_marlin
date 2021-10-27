@@ -811,7 +811,6 @@ PRODUCT_PACKAGES += \
     SecureExtAuthService \
     atfwd \
     colorservice \
-    datastatusnotification \
     embms \
     fastdormancy \
     imssettings \
