@@ -227,7 +227,6 @@ PRODUCT_COPY_FILES += \
     vendor/google/marlin/proprietary/vendor/etc/permissions/qti-vzw-ims-internal.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/qti-vzw-ims-internal.xml \
     vendor/google/marlin/proprietary/vendor/etc/permissions/qti_permissions.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/qti_permissions.xml \
     vendor/google/marlin/proprietary/vendor/etc/permissions/rcsservice.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/rcsservice.xml \
-    vendor/google/marlin/proprietary/vendor/etc/permissions/telephonyservice.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/telephonyservice.xml \
     vendor/google/marlin/proprietary/vendor/etc/public.libraries.txt:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt \
     vendor/google/marlin/proprietary/vendor/etc/qdcm_calib_data_M1_WQHD_SAMSUNG_S6E3HA3_5.5_command_mode_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_M1_WQHD_SAMSUNG_S6E3HA3_5.5_command_mode_panel.xml \
     vendor/google/marlin/proprietary/vendor/etc/qfipsverify/bootimg.hmac:$(TARGET_COPY_OUT_VENDOR)/etc/qfipsverify/bootimg.hmac \
@@ -819,7 +818,6 @@ PRODUCT_PACKAGES += \
     radioconfig \
     shutdownlistener \
     vzw_msdc_api \
-    QtiTelephonyServicelibrary \
     embmslibrary \
     qti-vzw-ims-internal \
     rcsservice

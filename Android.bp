@@ -406,13 +406,6 @@ android_app_import {
 }
 
 dex_import {
-	name: "QtiTelephonyServicelibrary",
-	owner: "google",
-	jars: ["proprietary/vendor/framework/QtiTelephonyServicelibrary.jar"],
-	soc_specific: true,
-}
-
-dex_import {
 	name: "embmslibrary",
 	owner: "google",
 	jars: ["proprietary/vendor/framework/embmslibrary.jar"],
