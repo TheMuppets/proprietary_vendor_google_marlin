@@ -43,6 +43,7 @@ android_app_import {
 	name: "VzwOmaTrigger",
 	owner: "google",
 	apk: "proprietary/system/priv-app/VzwOmaTrigger/VzwOmaTrigger.apk",
+	preprocessed: true,
 	presigned: true,
 	dex_preopt: {
 		enabled: false,
@@ -65,6 +66,7 @@ android_app_import {
 	name: "VZWAPNLib",
 	owner: "google",
 	apk: "proprietary/product/app/VZWAPNLib/VZWAPNLib.apk",
+	preprocessed: true,
 	presigned: true,
 	dex_preopt: {
 		enabled: false,
@@ -76,6 +78,7 @@ android_app_import {
 	name: "CarrierServices",
 	owner: "google",
 	apk: "proprietary/product/priv-app/CarrierServices/CarrierServices.apk",
+	preprocessed: true,
 	presigned: true,
 	dex_preopt: {
 		enabled: false,
@@ -160,6 +163,7 @@ android_app_import {
 	name: "HotwordEnrollmentOKGoogleWCD9335",
 	owner: "google",
 	apk: "proprietary/product/priv-app/HotwordEnrollmentOKGoogleWCD9335/HotwordEnrollmentOKGoogleWCD9335.apk",
+	preprocessed: true,
 	presigned: true,
 	dex_preopt: {
 		enabled: false,
@@ -172,6 +176,7 @@ android_app_import {
 	name: "HotwordEnrollmentXGoogleWCD9335",
 	owner: "google",
 	apk: "proprietary/product/priv-app/HotwordEnrollmentXGoogleWCD9335/HotwordEnrollmentXGoogleWCD9335.apk",
+	preprocessed: true,
 	presigned: true,
 	dex_preopt: {
 		enabled: false,
@@ -184,6 +189,7 @@ android_app_import {
 	name: "MyVerizonServices",
 	owner: "google",
 	apk: "proprietary/product/priv-app/MyVerizonServices/MyVerizonServices.apk",
+	preprocessed: true,
 	presigned: true,
 	dex_preopt: {
 		enabled: false,
@@ -232,6 +238,7 @@ android_app_import {
 	name: "WfcActivation",
 	owner: "google",
 	apk: "proprietary/product/priv-app/WfcActivation/WfcActivation.apk",
+	preprocessed: true,
 	presigned: true,
 	dex_preopt: {
 		enabled: false,
@@ -244,6 +251,7 @@ android_app_import {
 	name: "obdm_stub",
 	owner: "google",
 	apk: "proprietary/product/priv-app/obdm_stub/obdm_stub.apk",
+	preprocessed: true,
 	presigned: true,
 	dex_preopt: {
 		enabled: false,
