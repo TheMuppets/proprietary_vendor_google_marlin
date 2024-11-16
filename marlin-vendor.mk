@@ -139,7 +139,6 @@ PRODUCT_COPY_FILES += \
     vendor/google/marlin/proprietary/vendor/app/embms/oem/config_params.xml:$(TARGET_COPY_OUT_VENDOR)/app/embms/oem/config_params.xml \
     vendor/google/marlin/proprietary/vendor/app/embms/oem/provisioning_params.xml:$(TARGET_COPY_OUT_VENDOR)/app/embms/oem/provisioning_params.xml \
     vendor/google/marlin/proprietary/vendor/app/embms/oem/verizon_config_params.txt:$(TARGET_COPY_OUT_VENDOR)/app/embms/oem/verizon_config_params.txt \
-    vendor/google/marlin/proprietary/vendor/bin/ATFWD-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/ATFWD-daemon \
     vendor/google/marlin/proprietary/vendor/bin/PktRspTest:$(TARGET_COPY_OUT_VENDOR)/bin/PktRspTest \
     vendor/google/marlin/proprietary/vendor/bin/StoreKeybox:$(TARGET_COPY_OUT_VENDOR)/bin/StoreKeybox \
     vendor/google/marlin/proprietary/vendor/bin/WifiLogger_app:$(TARGET_COPY_OUT_VENDOR)/bin/WifiLogger_app \
