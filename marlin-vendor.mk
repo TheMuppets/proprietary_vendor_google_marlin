@@ -812,7 +812,6 @@ PRODUCT_PACKAGES += \
     QtiTelephonyService \
     RCSBootstraputil \
     SecureExtAuthService \
-    atfwd \
     colorservice \
     embms \
     fastdormancy \

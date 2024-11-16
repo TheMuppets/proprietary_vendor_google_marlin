@@ -317,17 +317,6 @@ android_app_import {
 }
 
 android_app_import {
-	name: "atfwd",
-	owner: "google",
-	apk: "proprietary/vendor/app/atfwd/atfwd.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	soc_specific: true,
-}
-
-android_app_import {
 	name: "colorservice",
 	owner: "google",
 	apk: "proprietary/vendor/app/colorservice/colorservice.apk",
