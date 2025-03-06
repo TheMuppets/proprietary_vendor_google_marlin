@@ -410,7 +410,6 @@ PRODUCT_COPY_FILES += \
     vendor/google/marlin/proprietary/vendor/lib/libGPreqcancel.so:$(TARGET_COPY_OUT_VENDOR)/lib/libGPreqcancel.so \
     vendor/google/marlin/proprietary/vendor/lib/libGPreqcancel_svc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libGPreqcancel_svc.so \
     vendor/google/marlin/proprietary/vendor/lib/libQSEEComAPI.so:$(TARGET_COPY_OUT_VENDOR)/lib/libQSEEComAPI.so \
-    vendor/google/marlin/proprietary/vendor/lib/libRSDriver_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/libRSDriver_adreno.so \
     vendor/google/marlin/proprietary/vendor/lib/libSampleAuthJNI.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSampleAuthJNI.so \
     vendor/google/marlin/proprietary/vendor/lib/libSampleExtAuthJNI.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSampleExtAuthJNI.so \
     vendor/google/marlin/proprietary/vendor/lib/libSecureExtAuthJNI.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSecureExtAuthJNI.so \
@@ -617,8 +616,6 @@ PRODUCT_COPY_FILES += \
     vendor/google/marlin/proprietary/vendor/lib/libril-qcril-hook-oem.so:$(TARGET_COPY_OUT_VENDOR)/lib/libril-qcril-hook-oem.so \
     vendor/google/marlin/proprietary/vendor/lib/librmp.so:$(TARGET_COPY_OUT_VENDOR)/lib/librmp.so \
     vendor/google/marlin/proprietary/vendor/lib/librpmb.so:$(TARGET_COPY_OUT_VENDOR)/lib/librpmb.so \
-    vendor/google/marlin/proprietary/vendor/lib/librs_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/librs_adreno.so \
-    vendor/google/marlin/proprietary/vendor/lib/librs_adreno_sha1.so:$(TARGET_COPY_OUT_VENDOR)/lib/librs_adreno_sha1.so \
     vendor/google/marlin/proprietary/vendor/lib/libscale.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscale.so \
     vendor/google/marlin/proprietary/vendor/lib/libsd_sdk_display.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsd_sdk_display.so \
     vendor/google/marlin/proprietary/vendor/lib/libsdm-disp-apis.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsdm-disp-apis.so \
@@ -684,7 +681,6 @@ PRODUCT_COPY_FILES += \
     vendor/google/marlin/proprietary/vendor/lib64/libGPreqcancel.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libGPreqcancel.so \
     vendor/google/marlin/proprietary/vendor/lib64/libGPreqcancel_svc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libGPreqcancel_svc.so \
     vendor/google/marlin/proprietary/vendor/lib64/libQSEEComAPI.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libQSEEComAPI.so \
-    vendor/google/marlin/proprietary/vendor/lib64/libRSDriver_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libRSDriver_adreno.so \
     vendor/google/marlin/proprietary/vendor/lib64/libSampleAuthJNI.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSampleAuthJNI.so \
     vendor/google/marlin/proprietary/vendor/lib64/libSampleExtAuthJNI.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSampleExtAuthJNI.so \
     vendor/google/marlin/proprietary/vendor/lib64/libSecureExtAuthJNI.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSecureExtAuthJNI.so \
@@ -776,8 +772,6 @@ PRODUCT_COPY_FILES += \
     vendor/google/marlin/proprietary/vendor/lib64/librilqmiservices.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librilqmiservices.so \
     vendor/google/marlin/proprietary/vendor/lib64/librmp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librmp.so \
     vendor/google/marlin/proprietary/vendor/lib64/librpmb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librpmb.so \
-    vendor/google/marlin/proprietary/vendor/lib64/librs_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librs_adreno.so \
-    vendor/google/marlin/proprietary/vendor/lib64/librs_adreno_sha1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librs_adreno_sha1.so \
     vendor/google/marlin/proprietary/vendor/lib64/libscalar.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscalar.so \
     vendor/google/marlin/proprietary/vendor/lib64/libscale.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscale.so \
     vendor/google/marlin/proprietary/vendor/lib64/libsd_sdk_display.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsd_sdk_display.so \
