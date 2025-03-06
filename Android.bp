@@ -272,6 +272,32 @@ dex_import {
 	jars: ["proprietary/system/framework/qcrilhook.jar"],
 }
 
+install_symlink {
+	name: "libdmengine_libdmengine_symlink32",
+	product_specific: true,
+	installed_location: "priv-app/DMService/lib/arm/libdmengine.so",
+	symlink_target: "/product/lib/libdmengine.so",
+}
+
+install_symlink {
+	name: "libdmjavaplugin_libdmjavaplugin_symlink32",
+	product_specific: true,
+	installed_location: "priv-app/DMService/lib/arm/libdmjavaplugin.so",
+	symlink_target: "/product/lib/libdmjavaplugin.so",
+}
+
+install_symlink {
+	name: "libimscamera_jni_libimscamera_jni_symlink64",
+	installed_location: "app/ims/lib/arm64/libimscamera_jni.so",
+	symlink_target: "/system/lib64/libimscamera_jni.so",
+}
+
+install_symlink {
+	name: "libimsmedia_jni_libimsmedia_jni_symlink64",
+	installed_location: "app/ims/lib/arm64/libimsmedia_jni.so",
+	symlink_target: "/system/lib64/libimsmedia_jni.so",
+}
+
 android_app_import {
 	name: "QAS_DVC_MSP",
 	owner: "google",

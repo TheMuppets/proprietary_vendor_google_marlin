@@ -135,6 +135,12 @@ PRODUCT_PACKAGES += \
     obdm_stub \
     com.google.android.camera.experimental2016 \
     qcrilhook
+
+PRODUCT_PACKAGES += \
+    libdmengine_libdmengine_symlink32 \
+    libdmjavaplugin_libdmjavaplugin_symlink32 \
+    libimscamera_jni_libimscamera_jni_symlink64 \
+    libimsmedia_jni_libimsmedia_jni_symlink64
 PRODUCT_COPY_FILES += \
     vendor/google/marlin/proprietary/vendor/app/embms/oem/config_params.xml:$(TARGET_COPY_OUT_VENDOR)/app/embms/oem/config_params.xml \
     vendor/google/marlin/proprietary/vendor/app/embms/oem/provisioning_params.xml:$(TARGET_COPY_OUT_VENDOR)/app/embms/oem/provisioning_params.xml \
